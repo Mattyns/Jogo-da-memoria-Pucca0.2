@@ -1,0 +1,515 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.tabela {
+    width: 80vw;
+    height: 80vh;
+    background-image: url('../Img/wallpapper.jpg');
+    background-size: 120%;
+    background-position: center;
+    border: 5px solid black;
+}
+
+.capadegrade {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.362), rgba(0, 0, 0, 0.288));
+    
+    width: 80vw;
+    height: 80vh;
+    display: block;
+    position: absolute;
+}
+
+#capa {
+    display: flex;
+    
+    
+}
+
+
+.pucca1 {
+    width: 92px;
+    height: 132px;
+    margin: 10px;
+    
+    perspective: 1000px; /* Adiciona profundidade ao efeito 3D */
+}
+
+.pucca1-card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d; /* Mantém os filhos em 3D */
+    transition: transform 1s ease-in-out;
+}
+
+.pucca1-card.pucca1-is-flipped {
+    transform: rotateY(180deg);
+}
+
+.pucca1-card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Oculta o lado traseiro ao girar */
+    border-radius: 20px;
+    border: 3px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.pucca1-front {
+    background-image: url('../Img/Pucca1.webp'); /* Substituir pela sua imagem */
+    background-size: cover;
+    background-position: center;
+}
+
+.pucca1-back {
+    background-image: url('../Img/card1.jpg'); /* Substituir pela sua imagem */
+    background-size: cover;
+    background-position: center;
+    transform: rotateY(180deg);
+}
+
+.pucca2 {
+    width: 92px;
+    height: 132px;
+    margin: 10px;
+    
+    perspective: 1000px; /* Adiciona profundidade ao efeito 3D */
+}
+
+.pucca2-card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d; /* Mantém os filhos em 3D */
+    transition: transform 1s ease-in-out;
+}
+
+.pucca2-card.pucca2-is-flipped {
+    transform: rotateY(180deg);
+}
+
+.pucca2-card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Oculta o lado traseiro ao girar */
+    border-radius: 20px;
+    border: 3px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.pucca2-front {
+    background-image: url('../Img/Pucca1.webp'); /* Substituir pela sua imagem */
+    background-size: cover;
+    background-position: center;
+}
+
+.pucca2-back {
+    background-image: url('../Img/card1.jpg'); /* Substituir pela sua imagem */
+    background-size: cover;
+    background-position: center;
+    transform: rotateY(180deg);
+}
+
+.pucca3 {
+    width: 92px;
+    height: 132px;
+    margin: 10px;
+    
+    perspective: 1000px; /* Adiciona profundidade ao efeito 3D */
+}
+
+.pucca3-card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d; /* Mantém os filhos em 3D */
+    transition: transform 1s ease-in-out;
+}
+
+.pucca3-card.pucca3-is-flipped {
+    transform: rotateY(180deg);
+}
+
+.pucca3-card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Oculta o lado traseiro ao girar */
+    border-radius: 20px;
+    border: 3px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.pucca3-front {
+    background-image: url('../Img/Pucca1.webp'); /* Substituir pela sua imagem */
+    background-size: cover;
+    background-position: center;
+}
+
+.pucca3-back {
+    background-image: url('../Img/card3.jpg'); /* Substituir pela sua imagem */
+    background-size: cover;
+    background-position: center;
+    transform: rotateY(180deg);
+}
+
+.pucca4 {
+    width: 92px;
+    height: 132px;
+    margin: 10px;
+    
+    perspective: 1000px; /* Adiciona profundidade ao efeito 3D */
+}
+
+.pucca4-card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d; /* Mantém os filhos em 3D */
+    transition: transform 1s ease-in-out;
+}
+
+.pucca4-card.pucca4-is-flipped {
+    transform: rotateY(180deg);
+}
+
+.pucca4-card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Oculta o lado traseiro ao girar */
+    border-radius: 20px;
+    border: 3px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.pucca4-front {
+    background-image: url('../Img/Pucca1.webp'); /* Substituir pela sua imagem */
+    background-size: cover;
+    background-position: center;
+}
+
+.pucca4-back {
+    background-image: url('../Img/card3.jpg'); /* Substituir pela sua imagem */
+    background-size: cover;
+    background-position: center;
+    transform: rotateY(180deg);
+}
+
+.pucca5 {
+    width: 92px;
+    height: 132px;
+    margin: 10px;
+    
+    perspective: 1000px; /* Adiciona profundidade ao efeito 3D */
+}
+
+.pucca5-card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d; /* Mantém os filhos em 3D */
+    transition: transform 1s ease-in-out;
+}
+
+.pucca5-card.pucca5-is-flipped {
+    transform: rotateY(180deg);
+}
+
+.pucca5-card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Oculta o lado traseiro ao girar */
+    border-radius: 20px;
+    border: 3px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.pucca5-front {
+    background-image: url('../Img/Pucca1.webp'); /* Substituir pela sua imagem */
+    background-size: cover;
+    background-position: center;
+}
+
+.pucca5-back {
+    background-image: url('../Img/card4.jpg'); /* Substituir pela sua imagem */
+    background-size: cover;
+    background-position: center;
+    transform: rotateY(180deg);
+}
+
+.pucca6 {
+    width: 92px;
+    height: 132px;
+    margin: 10px;
+    
+    perspective: 1000px; /* Adiciona profundidade ao efeito 3D */
+}
+
+.pucca6-card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d; /* Mantém os filhos em 3D */
+    transition: transform 1s ease-in-out;
+}
+
+.pucca6-card.pucca6-is-flipped {
+    transform: rotateY(180deg);
+}
+
+.pucca6-card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Oculta o lado traseiro ao girar */
+    border-radius: 20px;
+    border: 3px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.pucca6-front {
+    background-image: url('../Img/Pucca1.webp'); /* Substituir pela sua imagem */
+    background-size: cover;
+    background-position: center;
+}
+
+.pucca6-back {
+    background-image: url('../Img/card4.jpg'); /* Substituir pela sua imagem */
+    background-size: cover;
+    background-position: center;
+    transform: rotateY(180deg);
+}
+
+.pucca7 {
+    width: 92px;
+    height: 132px;
+    margin: 10px;
+    
+    perspective: 1000px; /* Adiciona profundidade ao efeito 3D */
+}
+
+.pucca7-card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d; /* Mantém os filhos em 3D */
+    transition: transform 1s ease-in-out;
+}
+
+.pucca7-card.pucca7-is-flipped {
+    transform: rotateY(180deg);
+}
+
+.pucca7-card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Oculta o lado traseiro ao girar */
+    border-radius: 20px;
+    border: 3px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.pucca7-front {
+    background-image: url('../Img/Pucca1.webp'); /* Substituir pela sua imagem */
+    background-size: cover;
+    background-position: center;
+}
+
+.pucca7-back {
+    background-image: url('../Img/card6.jpg'); /* Substituir pela sua imagem */
+    background-size: cover;
+    background-position: center;
+    transform: rotateY(180deg);
+}
+
+.pucca8 {
+    width: 92px;
+    height: 132px;
+    margin: 10px;
+    
+    perspective: 1000px; /* Adiciona profundidade ao efeito 3D */
+}
+
+.pucca8-card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d; /* Mantém os filhos em 3D */
+    transition: transform 1s ease-in-out;
+}
+
+.pucca8-card.pucca8-is-flipped {
+    transform: rotateY(180deg);
+}
+
+.pucca8-card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Oculta o lado traseiro ao girar */
+    border-radius: 20px;
+    border: 3px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.pucca8-front {
+    background-image: url('../Img/Pucca1.webp'); /* Substituir pela sua imagem */
+    background-size: cover;
+    background-position: center;
+}
+
+.pucca8-back {
+    background-image: url('../Img/card6.jpg'); /* Substituir pela sua imagem */
+    background-size: cover;
+    background-position: center;
+    transform: rotateY(180deg);
+}
+
+.pucca9 {
+    width: 92px;
+    height: 132px;
+    margin: 10px;
+    
+    perspective: 1000px; /* Adiciona profundidade ao efeito 3D */
+}
+
+.pucca9-card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d; /* Mantém os filhos em 3D */
+    transition: transform 1s ease-in-out;
+}
+
+.pucca9-card.pucca9-is-flipped {
+    transform: rotateY(180deg);
+}
+
+.pucca9-card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Oculta o lado traseiro ao girar */
+    border-radius: 20px;
+    border: 3px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.pucca9-front {
+    background-image: url('../Img/Pucca1.webp'); /* Substituir pela sua imagem */
+    background-size: cover;
+    background-position: center;
+}
+
+.pucca9-back {
+    background-image: url('../Img/card8.jpg'); /* Substituir pela sua imagem */
+    background-size: cover;
+    background-position: center;
+    transform: rotateY(180deg);
+}
+
+.pucca10 {
+    width: 92px;
+    height: 132px;
+    margin: 10px;
+    
+    perspective: 1000px; /* Adiciona profundidade ao efeito 3D */
+}
+
+.pucca10-card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d; /* Mantém os filhos em 3D */
+    transition: transform 1s ease-in-out;
+}
+
+.pucca10-card.pucca10-is-flipped {
+    transform: rotateY(180deg);
+}
+
+.pucca10-card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Oculta o lado traseiro ao girar */
+    border-radius: 20px;
+    border: 3px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.pucca10-front {
+    background-image: url('../Img/Pucca1.webp'); /* Substituir pela sua imagem */
+    background-size: cover;
+    background-position: center;
+}
+
+.pucca10-back {
+    background-image: url('../Img/card8.jpg'); /* Substituir pela sua imagem */
+    background-size: cover;
+    background-position: center;
+    transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
+
+/* Estilo para cartas bloqueadas (quando já acertou o par) */
+.card-container.matched {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+/* Efeito ao virar a carta */
+.pucca1-card,
+.pucca2-card,
+.pucca3-card,
+.pucca4-card,
+.pucca5-card,
+.pucca6-card,
+.pucca7-card,
+.pucca8-card,
+.pucca9-card,
+.pucca10-card {
+    transition: transform 0.6s;
+}
+
+@media screen and (Width < 1000px) {
+    .tabela {
+        background-image: url('../Img/wallpapper-p.jpg');
+        background-size: cover;
+    }
+
+    #capa {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    #capa > div {
+        width: 18%;
+        height: 100px;
+    }
+    
+}
