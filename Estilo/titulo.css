@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'title';
+    src: url('../More.ttf');
+}
+
+:root{
+
+
+
+    --font1: 'title';
+}
+
+
+body {
+    background-color: red;
+}
+
+.tela {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+
+#texttitulo{
+    position:absolute;
+    font-family: var(--font1);
+    
+    width: 98vw;
+    text-align: center;
+    font-size: 3em;
+    color: red;
+    top: 25vh;
+    
+    
+    
+    
+   
+}
+
+#titulo {
+    
+    height: 100vh;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px black;
+}
+
+#botoes {
+    font-size: 3em;
+    position: absolute;
+    
+    top: 60vh;
+    
+}
+
+#botoes > a {
+    text-decoration: none;
+    color: black;
+    font-family: var(--font1);
+    border-radius: 50%;
+}
+
+#botoes > a:hover {
+    font-size: 1.2em;
+    background-color: black;
+    color: red;
+    border-radius: 50%;
+    padding: 10px;
+    transition: 1s;
+}
+
+#botoes p {
+    text-decoration: none;
+    color: black;
+    font-family: var(--font1);
+}
+
+#switchRange {
+    position: absolute;
+    top: 19.5vh;
+    left: 11vw;
+}
