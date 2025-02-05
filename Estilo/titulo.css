@@ -13,6 +13,9 @@
 
 body {
     background-color: red;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .tela {
@@ -26,7 +29,7 @@ body {
     position:absolute;
     font-family: var(--font1);
     
-    width: 98vw;
+    
     text-align: center;
     font-size: 3em;
     color: red;
